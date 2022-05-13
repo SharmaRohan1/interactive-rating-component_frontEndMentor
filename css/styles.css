@@ -1,0 +1,156 @@
+@media (max-width: 400px) {
+  .ratingContainer,
+  .thankuContainer {
+    width: 80%;
+  }
+}
+
+@media (min-width: 401px) {
+  .ratingContainer,
+  .thankuContainer {
+    width: 20rem;
+  }
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: #141519;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.container {
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ratingContainer,
+.thankuContainer {
+  background-color: #202731;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.ratingContainer .image {
+  width: 40px;
+  height: 40px;
+  background-color: #272f37;
+  text-align: center;
+  /* padding: 10px 0; */
+  border-radius: 100%;
+}
+
+.star {
+  position: relative;
+  top: 10px;
+}
+
+.thankuContainer .image {
+  text-align: center;
+  padding: 5px 0;
+}
+
+.ratingContainer h2 {
+  color: white;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.thankuContainer h2 {
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px 0 7.5px;
+}
+
+.ratingGiven {
+  color: hsl(25, 97%, 53%);
+  background-color: #262f38;
+  width: 12.5rem;
+  border-radius: 15px;
+  padding: 2.5px 0;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.ratingContainer p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.thankuContainer p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.rating div {
+  width: 40px;
+  height: 40px;
+
+  border-radius: 100%;
+}
+
+.rating div:hover {
+  cursor: pointer;
+}
+
+.unclicked:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+
+.I,
+.II,
+.III,
+.IV,
+.V {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clicked {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.unclicked {
+  background-color: #262f38;
+  color: #424a54;
+}
+
+.submit {
+  margin: 25px 0 10px;
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 20px;
+}
+
+.submit:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+.displayNone {
+  display: none;
+}
+
+.attribution {
+  color: #fff;
+}
